@@ -8,57 +8,326 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: 0;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  box-sizing: border-box;
+  border: 0;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
 }
 
-@media(max-width:768px){
-
-    nav{
-        display: flex;
-        max-width: 768px;
-        border: 2px solid greenyellow;
-        background-color: #540B51;
-        align-items: center;
-        padding: 5%;
-        flex-direction: row;
-        justify-content: center;
-
-
-    }
-    nav ul{
-        display: none;
-    }
-
-    #slack-logo{
-        width: 20%;
-    }
-    .search{
-        display: flex;
-        float: right;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .search button{
-        margin: 0 0 0 15px ;
-    }
-
-    header{
-        border: solid 2px pink;
-        max-width: 768px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        background-color: #540B51;
-    }
-
-
-    #Hero-image{
+@media (max-width: 768px) {
+  nav {
+    display: flex;
     width: 100%;
 
-    }
+    background-color: #540b51;
+    align-items: center;
+    padding: 5%;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid rgba(173, 162, 162, 0.266);
+  }
+  nav ul {
+    display: none;
+  }
+
+  #slack-logo {
+    width: 50%;
+  }
+  .search {
+    display: flex;
+    float: right;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .search button {
+    margin: 0 0 0 15px;
+    background-color: #540b51;
+  }
+  a{
+    color: #2E71A6;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #540b51;
+  }
+  #Hero-image {
+    width: 100%;
+  }
+  .title {
+    color: white;
+    text-align: center;
+    padding: 5%;
+  }
+  .btn-login {
+    display: flex;
+    flex-direction: column;
+  }
+  #Sign-inE {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    color: #540b51;
+    padding: 5%;
+    margin: 5% 0;
+    text-transform: uppercase;
+
+    font-size: 0.8em;
+    font-weight: bold;
+    height: 40%;
+  }
+  #Sign-inG {
+    display: flex;
+    color: white;
+    text-justify: center;
+    align-items: center;
+    background-color: #4285F4;
+    padding: 1%;
+    margin: 0 0 5% 0;
+    height: 40%;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  #logo-google {
+   max-width: 10%;
+    background-color: white;
+    margin: 0 10% 0 0;
+    padding: 2%;
+  }
+  .span {
+    flex-basis: 55%;
+  }
+  .title p {
+    margin: 5% 0;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3eae2;
+  }
+
+  .first-sec {
+    padding: 2%;
+    text-align: center;
+  }
+  .image-comp {
+    display: flex;
+    flex-direction: column;
+  }
+  .first-line {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    max-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 3%;
+
+  }
+  .second-line {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 3%;
+  }
+
+  .image-comp img {
+    max-width: 60%;
+    max-height: 55%;
+  }
+
+  .first-sec p {
+    width: 100%;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
+  .second-sec p,
+  h2,
+  span {
+    margin: 5%;
+  }
+  .second-sec img {
+    width: 100%;
+  }
+  .third-sec {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .third-sec img {
+    width: 100%;
+    margin: 5% 0;
+  }
+  .third-sec p,
+  h2,
+  span {
+    margin: 5%;
+  }
+  .fourth-sec {
+    padding: 20px 0;
+  }
+  .fourth-sec p,
+  h2,
+  span {
+    margin: 5%;
+  }
+  .fourth-sec img {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .fifth-sec {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+  }
+  .fifth-sec-btn {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    justify-content: space-around;
+    height: 100px;
+
+    text-transform: uppercase;
+    background-color: white;
+  }
+  #meet {
+    height: 40%;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+    background-color: #540b51;
+    border: 1px solid #540b51;
+    border-radius: 3px;
+  }
+  #talk {
+    height: 40%;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #540b51;
+    background-color: white;
+    border: 2px solid #540b51;
+    border-radius: 3px;
+  }
+  .fifth-sec h3 {
+    margin: 40px 30px 10px 30px;
+    font-size: 1.5em;
+  }
+  .fifth-sec p {
+    margin: 0 4%;
+  }
+  .fifth-sec ul {
+    font-weight: bold;
+    border: 1px black solid;
+    padding: 0 15%;
+  }
+  .fifth-sec span {
+    font-size: 2em;
+    color: #540b51 ;
+  }
+  .welcome{
+    background-color: #540b51;
+    display: flex;
+    flex-direction: column;
+  }
+  .welcome h3{
+    margin: 10%;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .btn-wlcome{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5% 10% 5%;
+    justify-content: space-around;
+    height: 100px;
+    text-transform: uppercase;
+    background-color: #540b51;
+
+  }
+  #wlc-try{
+    height: 40%;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+    background-color: #540b51;
+    border: 2px solid white;
+    border-radius: 3px;
+    
+  }
+  #wlc-takl{
+    height: 40%;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #540b51;
+    border: 2px solid #540b51;
+    border-radius: 3px;
+  }
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+
+
+}
+footer img{
+    width: 10%;
+    margin: 5% 0;
+    display: block;
+
+    display: flex;
+}
+  .ul-footer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+
+
+    
+  }
+  .ul-footer ul{
+    display: flex;
+    flex-direction: column;
+
+
+
+
+  }
+  .ul-footer li{
+    margin: 10px 0;
+
+  }
+
+  
+  #ul-bold li{
+    margin:  5% 0;
+    height: 100%;
+    font-weight: bold;
+    font-size: 13px;
+
+  }
+  #icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+  }
+
 
 }
