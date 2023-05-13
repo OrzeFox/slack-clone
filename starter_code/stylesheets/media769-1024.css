@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  box-sizing: border-box;
+  border: 0;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  nav {
+    display: flex;
+    width: 100%;
+    background-color: #540b51;
+    align-items: center;
+    padding: 2%;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(173, 162, 162, 0.266);
+  }
+  nav ul {
+    display: none;
+  }
+
+  #slack-logo {
+    width: 20%;
+  }
+  .search {
+    display: flex;
+    justify-content: space-between;
+
+    width: 10%;
+  }
+  .search button {
+    margin: 0 10%;
+    background-color: #540b51;
+  }
+  a {
+    color: #2e71a6;
+  }
+  header {
+    display: flex;
+    background-color: #540b51;
+    border: #2e71a6 2px solid;
+
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    border: orange 2px solid;
+    flex-basis: 50%;
+
+    
+  }
+  .container-imghero {
+    border: solid 2px;
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
+
+  }
+  #Hero-image {
+    height: 40%;
+    border: seagreen 2px solid;
+  }
+  header h1{
+    color: white;
+    font-weight: 700;
+    font-size: 5em;
+    margin: 5% 0;
+  }
+  header p{
+    font-size: 16px;
+    margin: 8% 0 0 0;
+  }
+
+  
+  .bold-yellow {
+    font-weight: bold;
+    color: orange;
+  }
+  
+  .light-white {
+    font-weight: normal;
+    color: white;
+  }
+
+  .btn-login {
+    display: flex;
+    flex-direction: column;
+  }
+  #Sign-inE {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    color: #540b51;
+    padding: 5%;
+    margin: 5% 0;
+    text-transform: uppercase;
+
+    font-size: 0.8em;
+    font-weight: 700;
+    height: 45px;
+    border-radius: 2px;
+  }
+  #Sign-inG {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+    color: white;
+
+    background-color: #4285F4;
+
+    margin: 0 0 5% 0;
+    height: 45px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border-radius: 2px;
+
+  }
+  #logo-google {
+   max-width: 35px;
+    background-color: white;
+    margin: 0 24% 0 0;
+    padding: 2%;
+  }
+  #Sign-inG .span {
+    margin-right: 8px;
+  }
+  .fourth-sec img {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .third-sec img {
+    width: 100%;
+    margin: 5% 0;
+  }
+  .second-sec img {
+    width: 100%;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3eae2;
+  }
+
+  .first-sec {
+    padding: 2%;
+    text-align: center;
+  }
+  .image-comp {
+    display: flex;
+    flex-direction: column;
+  }
+  .first-line {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    max-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 3%;
+  }
+  .second-line {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 3%;
+  }
+
+  .image-comp img {
+    max-width: 60%;
+    max-height: 55%;
+  }
+
+  .first-sec p {
+    width: 100%;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
+}
