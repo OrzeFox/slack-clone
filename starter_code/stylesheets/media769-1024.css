@@ -10,6 +10,8 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  /* NAV BAR */
+
   nav {
     display: flex;
     width: 100%;
@@ -40,51 +42,47 @@
   a {
     color: #2e71a6;
   }
+
+  /* HEADER */
+
   header {
     display: flex;
     background-color: #540b51;
-    border: #2e71a6 2px solid;
-
   }
   .title {
     display: flex;
     flex-direction: column;
     padding: 4%;
-    border: orange 2px solid;
+
     flex-basis: 50%;
-
-    
   }
-  .container-imghero {
-    border: solid 2px;
-    flex-basis: 50%;
-    display: flex;
-    align-items: center;
-
-    overflow: hidden;
-
-  }
-  #Hero-image {
-    height: 40%;
-    border: seagreen 2px solid;
-  }
-  header h1{
+  header h1 {
     color: white;
     font-weight: 700;
     font-size: 5em;
     margin: 5% 0;
+    text-align: left;
   }
-  header p{
+  header p {
     font-size: 16px;
     margin: 8% 0 0 0;
+    text-align: left;
+  }
+  .container-imghero {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  #Hero-image {
+    height: 40%;
   }
 
-  
   .bold-yellow {
     font-weight: bold;
     color: orange;
   }
-  
+
   .light-white {
     font-weight: normal;
     color: white;
@@ -116,7 +114,7 @@
 
     color: white;
 
-    background-color: #4285F4;
+    background-color: #4285f4;
 
     margin: 0 0 5% 0;
     height: 45px;
@@ -124,28 +122,16 @@
     font-size: 0.8rem;
     font-weight: 700;
     border-radius: 2px;
-
   }
   #logo-google {
-   max-width: 35px;
+    max-width: 35px;
     background-color: white;
-    margin: 0 24% 0 0;
+    margin: 0 15% 0 0;
     padding: 2%;
   }
-  #Sign-inG .span {
-    margin-right: 8px;
-  }
-  .fourth-sec img {
-    width: 100%;
-    margin: 20px 0;
-  }
-  .third-sec img {
-    width: 100%;
-    margin: 5% 0;
-  }
-  .second-sec img {
-    width: 100%;
-  }
+
+  /* MAIN */
+
   main {
     display: flex;
     flex-direction: column;
@@ -156,39 +142,111 @@
     padding: 2%;
     text-align: center;
   }
+  .first-sec p {
+    font-weight: 800;
+    margin: 5% 0 0 0;
+    font-size: 20px;
+  }
   .image-comp {
     display: flex;
-    flex-direction: column;
+
+    justify-content: space-between;
+    margin: 5% 0 10% 0;
   }
   .first-line {
     display: flex;
     flex-direction: row;
-    height: 60px;
+    height: 70px;
     max-height: 100px;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    padding: 0 3%;
+
+    width: 49%;
   }
   .second-line {
     display: flex;
     flex-direction: row;
-    height: 60px;
+    height: 70px;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    padding: 0 3%;
+    width: 49%;
   }
 
   .image-comp img {
     max-width: 60%;
-    max-height: 55%;
+    max-height: 60%;
+  }
+  .second-sec * {
+    margin: 5% 0;
+  }
+  .second-txt {
+    margin: 0 20%;
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+  .second-sec img {
+    width: 80%;
+  }
+  .third-sec {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .third-sec * {
+    margin: 5% 0;
+  }
+  .third-sec img {
+    width: 80%;
+    float: right;
   }
 
-  .first-sec p {
-    width: 100%;
-    font-size: 0.85em;
+  .third-text {
+    margin: 0 20%;
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+  .fourth-sec img {
+    width: 80%;
+    margin: 20px 0;
+  }
+  .fourth-sec * {
+    margin: 5% 0;
+  }
+  .fourth-text {
+    margin: 3% 20%;
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+  .fifth-sec {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+  }
+  .fifth-sec-btn {
+    display: flex;
+    justify-content: center;
+    height: 6em;
     text-transform: uppercase;
-    margin: 10px 0;
+    background-color: white;
+    border: 2px solid red;
+    padding: 2%;
+  }
+  #meet {
+    text-transform: uppercase;
+    width: 35%;
+    color: white;
+    background-color: #540b51;
+    border: 1px solid #540b51;
+    border-radius: 3px;
+    margin: 0 2%;
+  }
+  #talk {
+    text-transform: uppercase;
+    width: 30%;
+    color: #540b51;
+    background-color: white;
+    border: 2px solid #540b51;
+    border-radius: 3px;
   }
 }
+
