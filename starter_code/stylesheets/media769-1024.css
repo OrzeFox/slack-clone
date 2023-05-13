@@ -20,14 +20,13 @@
     padding: 2%;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(173, 162, 162, 0.266);
   }
   nav ul {
     display: none;
   }
 
   #slack-logo {
-    width: 20%;
+    width: 25%;
   }
   .search {
     display: flex;
@@ -52,14 +51,16 @@
   .title {
     display: flex;
     flex-direction: column;
-    padding: 4%;
-
-    flex-basis: 50%;
+    padding: 3%;
+    background-image: url(/starter_code/images/background-singup.png);
+    background-size: 115em;
+    background-repeat: no-repeat;
+    flex-basis: 65%;
   }
   header h1 {
     color: white;
     font-weight: 700;
-    font-size: 5em;
+    font-size: 6em;
     margin: 5% 0;
     text-align: left;
   }
@@ -69,7 +70,7 @@
     text-align: left;
   }
   .container-imghero {
-    flex-basis: 50%;
+    flex-basis: 45%;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -81,11 +82,13 @@
   .bold-yellow {
     font-weight: bold;
     color: orange;
+    font-size: 1.5em;
   }
 
   .light-white {
     font-weight: normal;
     color: white;
+    font-size: 1.5em;
   }
 
   .btn-login {
@@ -101,25 +104,21 @@
     padding: 5%;
     margin: 5% 0;
     text-transform: uppercase;
-
-    font-size: 0.8em;
+    font-size: 1.2em;
     font-weight: 700;
-    height: 45px;
+    height: 60px;
     border-radius: 2px;
   }
   #Sign-inG {
     display: flex;
     align-items: center;
     padding: 10px;
-
     color: white;
-
     background-color: #4285f4;
-
-    margin: 0 0 5% 0;
-    height: 45px;
+    margin: 0 0 30% 0;
+    height: 60px;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 1.2em;
     font-weight: 700;
     border-radius: 2px;
   }
@@ -127,7 +126,7 @@
     max-width: 35px;
     background-color: white;
     margin: 0 15% 0 0;
-    padding: 2%;
+    padding: 1%;
   }
 
   /* MAIN */
@@ -145,7 +144,7 @@
   .first-sec p {
     font-weight: 800;
     margin: 5% 0 0 0;
-    font-size: 20px;
+    font-size: 1.5em;
   }
   .image-comp {
     display: flex;
@@ -156,7 +155,7 @@
   .first-line {
     display: flex;
     flex-direction: row;
-    height: 70px;
+    height: 5em;
     max-height: 100px;
     justify-content: space-between;
     align-items: center;
@@ -166,7 +165,7 @@
   .second-line {
     display: flex;
     flex-direction: row;
-    height: 70px;
+    height: 5em;
     justify-content: space-between;
     align-items: center;
     width: 49%;
@@ -228,7 +227,6 @@
     height: 6em;
     text-transform: uppercase;
     background-color: white;
-    border: 2px solid red;
     padding: 2%;
   }
   #meet {
@@ -239,6 +237,9 @@
     border: 1px solid #540b51;
     border-radius: 3px;
     margin: 0 2%;
+    font-weight: 700;
+    font-size: 1.1em;
+    height: 60px;
   }
   #talk {
     text-transform: uppercase;
@@ -247,6 +248,84 @@
     background-color: white;
     border: 2px solid #540b51;
     border-radius: 3px;
+    font-weight: 700;
+    font-size: 1.1em;
+    height: 60px;
+  }
+  .fifth-sec h3 {
+    line-height: 2;
+    font-size: 2em;
+    margin: 2% 0;
+  }
+  .fifth-sec p {
+    margin: 0 4%;
+    font-size: 1.3em;
+    margin: 0 0 2% 0;
+    padding: 0 5%;
+  }
+  .fifth-sec ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    margin: 5% 0;
+    padding: 0 2%;
+    text-align: left;
+  }
+  .fifth-sec ul * {
+    margin: 0 4%;
+  }
+  .fifth-sec span {
+    font-size: 2em;
+    color: #540b51;
+  }
+  .fifth-sec sup {
+    margin: 0;
+  }
+  .welcome {
+    background-color: #540b51;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+  }
+  .welcome h3 {
+    margin: 0 0 5% 0;
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .btn-wlcome {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    text-transform: uppercase;
+    background-color: #540b51;
+    padding: 0 5%;
+  }
+  .btn-wlcome * {
+    margin: 2% 0;
+  }
+  #wlc-try {
+    height: 60px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #540b51;
+
+    border: 2px solid white;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 1.1em;
+  }
+  #wlc-takl {
+    height: 60px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 1.1em;
+    background-color: #540b51;
   }
 }
-
