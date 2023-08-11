@@ -9,7 +9,7 @@
   font-family: "Inter", sans-serif;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 1025px) and (max-width: 2040px) {
   /* NAV BAR */
 
   nav {
@@ -21,25 +21,53 @@
     flex-direction: row;
     justify-content: space-between;
     height: 20%;
-
   }
-  nav ul {
-    display: none;
+  .icon-slack {
+    display: flex;
+    justify-content: space-between;
   }
-
+  nav a {
+    color: white;
+  }
+  .navegation-items {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    font-size: 1.5em;
+  }
+  .ul-hidden {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    font-size: 1.5em;
+  }
+  .btn-try {
+    background-color: white;
+    height: 1.5em;
+    width: 6em;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+  }
+  .btn-try a {
+    color: #540b51;
+  }
   #slack-logo {
-    width: 45%;
+    width: 20%;
+    margin: 0 1em ;
   }
   .search {
     display: flex;
     justify-content: space-between;
-
-    width: 10%;
+    width: 35%;
   }
   .search button {
     margin: 0 10%;
     background-color: #540b51;
-
+  }
+  #btn-hmbg {
+    display: none;
   }
   a {
     color: #2e71a6;
@@ -132,10 +160,10 @@
 
     padding: 1%;
   }
-  #Sign-inG span{
-   text-align: center;
-   position: relative;
-   left: 23%;
+  #Sign-inG span {
+    text-align: center;
+    position: relative;
+    left: 23%;
   }
 
   /* MAIN */

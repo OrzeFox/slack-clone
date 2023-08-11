@@ -10,8 +10,9 @@
   <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet" />
 
   <!-- link your styles -->
-  <link rel="stylesheet" href="./stylesheets/style.css" />
+  <link rel="stylesheet" href="./stylesheets/media400-768.css" />
   <link rel="stylesheet" href="./stylesheets/media769-1024.css">
+  <link rel="stylesheet" href="./stylesheets/media1024-1440.css">
   <link rel="icon" type="image/x-icon" href="./images/slack-icon.png">
   <title>Slack is your digital HQ | Slack</title>
 </head>
@@ -21,12 +22,15 @@
     <div class="icon-slack">
       <img src="./images/slack-logo.png" alt="Slack logo" id="slack-logo" />
 
-      <ul>
+      <ul class="navegation-items">
         <li>
           <a href="#">Product</a>
         </li>
         <li>
           <a href="#">Solutions</a>
+        </li>
+        <li>
+          <a href="#">Enterprise</a>
         </li>
         <li>
           <a href="#">Resources</a>
@@ -42,15 +46,15 @@
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
 
-      <button>
+      <button id="btn-hmbg">
         <img src="./images/icon-menu.png" alt="Menu icon">
       </button>
 
-      <ul hidden>
+      <ul hidden class="ul-hidden">
         <li>
           <a href="#">Sign in</a>
         </li>
-        <li>
+        <li class="btn-try">
           <a href="#">Try for free</a>
         </li>
       </ul>

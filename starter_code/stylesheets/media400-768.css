@@ -126,6 +126,9 @@ footer links grey: #454245
     margin: 5% 0;
   }
 
+
+/* MAIN */
+
   main {
     display: flex;
     flex-direction: column;
@@ -295,6 +298,10 @@ footer links grey: #454245
     border: 2px solid #540b51;
     border-radius: 3px;
   }
+
+  /* FOOTER */
+
+  
   footer {
     display: flex;
     flex-direction: column;
@@ -336,7 +343,7 @@ footer links grey: #454245
     font-size: 0.5em;
   }
 }
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+/* @media only screen and (min-width: 769px) and (max-width: 1024px) {
   nav {
     display: flex;
     width: 100%;
@@ -416,4 +423,4 @@ border: #2e71a6 2px solid;
   .title p {
     margin: 5% 0;
   }
-}
+} */
